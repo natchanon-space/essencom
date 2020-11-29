@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>content</title>
+<style>
+	body {
+		background: #4f2523;
+	}
+	* {
+		text-align: center;
+		color: #a1795a;
+	}
+	table {
+		margin-left: auto;
+  		margin-right: auto;
+	}
+</style>
+</head>
+	
+<body>
+<h1>Content</h1>
+<img src="/static/coffee2.jpg" width="268" height="188" alt=""/>	
+<table width="200" border="1">
+	  <tbody>
+	    <tr>
+	      <td style="color: #d6e0e6;">Information</td>
+	      <td style="color: #d6e0e6;"><a href="{{ url_for('information') }}">Link</a></td>
+        </tr>
+	    <tr>
+	      <td style="color: #d6e0e6;">Video</td>
+	      <td style="color: #d6e0e6;"><a href="{{ url_for('video') }}">Link</a></td>
+        </tr>
+      </tbody>
+</table>
+<div>
+  <a href="{{ url_for('index') }}">Homepage</a>
+		<a href="https://www.facebook.com/pun.lNcNl/">My Facebook</a>
+</div>
+	
+</body>
+</html>
